@@ -75,9 +75,10 @@ return true;
 {1, 3, 0, 0, 0, 0, 2, 5, 0},
 {0, 0, 0, 0, 0, 0, 0, 7, 4},
 {0, 0, 5, 2, 0, 6, 3, 0, 0} };
+printSudoku(sudoku);
 if(sudokuSolver(sudoku,0,0))
-{
-    System.out.println("Solution exists");
+{   
+    System.out.println("Solution exists.");
     printSudoku(sudoku);
 }
 else {
